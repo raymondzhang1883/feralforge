@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feral Forge | Savage Bites</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="Assets/Logo.png" alt="Feral Forge Logo">
+                <h1 class="wordmark">Feral Forge</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#shop">Shop</a>
+                <a href="#nutrition">Nutrition</a>
+                <a href="#story">Story</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#subscribe">Subscribe</a>
+            </div>
+            <div class="nav-actions">
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <button class="btn btn-primary">Buy Now</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>FORGED FOR THE FERAL.</h1>
+            <p class="sub-headline">Black-Pepper Bourbon Jerky—fuel built for hustle.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary">Add to Cart</button>
+                <button class="btn btn-ghost">Explore Flavors</button>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <i class="fas fa-arrow-down"></i>
+        </div>
+    </section>
+
+    <!-- Poster Section 1 - Image on left, text on right -->
+    <section class="poster-section" id="poster1">
+        <div class="split-layout">
+            <div class="poster-image">
+                <img src="Assets/poster2.png" alt="Unleash the Beast">
+            </div>
+            <div class="poster-content">
+                <h3 class="kicker">High-Voltage Protein.</h3>
+                <p class="body-text">Savage Bites pack a punch that energizes your day. Portable protein that fits in your pocket, fuels your hustle, and tastes like you're getting away with something.</p>
+                <div class="icon-list">
+                    <div class="icon-item">0g sugar</div>
+                    <div class="icon-item">16g protein</div>
+                    <div class="icon-item">Keto-friendly</div>
+                </div>
+                <a href="#" class="mini-cta">Shop Savage Bites →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Poster Section 2 - Image on right, text on left -->
+    <section class="poster-section alt-bg" id="poster2">
+        <div class="split-layout reverse">
+            <div class="poster-content">
+                <h2>Snack Loud. Live Bigger.</h2>
+                <div class="bullet-grid">
+                    <div class="bullet-item">
+                        <h4>Post-lift</h4>
+                        <p>Muscle recovery never tasted so wild</p>
+                    </div>
+                    <div class="bullet-item">
+                        <h4>Road-trip</h4>
+                        <p>Your co-pilot for the long haul</p>
+                    </div>
+                    <div class="bullet-item">
+                        <h4>Study fuel</h4>
+                        <p>Brain food with attitude</p>
+                    </div>
+                    <div class="bullet-item">
+                        <h4>Desk drawer</h4>
+                        <p>Office emergency stash upgrade</p>
+                    </div>
+                </div>
+                <button class="btn btn-quick-buy">Add 3-Pack to Cart</button>
+            </div>
+            <div class="poster-image">
+                <img src="Assets/poster1.png" alt="Snack Loud Live Bigger">
+            </div>
+        </div>
+    </section>
+
+    <!-- Poster Section 3 - Image on left, text on right -->
+    <section class="poster-section dark-theme" id="poster3">
+        <div class="split-layout">
+            <div class="poster-image reveal-mask">
+                <div class="placeholder-image" style="background-color: var(--color-dark-gray); width: 100%; height: 100%; min-height: 400px; display: flex; justify-content: center; align-items: center;">
+                    <h3 style="color: var(--color-primary);">FUEL YOUR BODY</h3>
+                </div>
+            </div>
+            <div class="poster-content">
+                <h2>Fuel Your Body—No Compromise.</h2>
+                <div class="macro-bars">
+                    <div class="macro-bar">
+                        <span class="macro-label">Protein</span>
+                        <div class="bar-container">
+                            <div class="bar protein-bar" data-target="75"></div>
+                        </div>
+                        <span class="macro-value">16g</span>
+                    </div>
+                    <div class="macro-bar">
+                        <span class="macro-label">Fat</span>
+                        <div class="bar-container">
+                            <div class="bar fat-bar" data-target="20"></div>
+                        </div>
+                        <span class="macro-value">3g</span>
+                    </div>
+                    <div class="macro-bar">
+                        <span class="macro-label">Carbs</span>
+                        <div class="bar-container">
+                            <div class="bar carbs-bar" data-target="5"></div>
+                        </div>
+                        <span class="macro-value">1g</span>
+                    </div>
+                </div>
+                <div class="badge-row">
+                    <span class="badge">Gluten-free</span>
+                    <span class="badge">No nitrates</span>
+                    <span class="badge">Real smoke</span>
+                </div>
+                <div class="review-carousel">
+                    <div class="review-item active">
+                        <p>"These changed my snack game forever. RIP potato chips." - Max K.</p>
+                    </div>
+                    <div class="review-item">
+                        <p>"I keep these in my gym bag & my life has improved 10x." - Jamie T.</p>
+                    </div>
+                    <div class="review-item">
+                        <p>"The bourbon flavor hits different. Finally, jerky with personality." - Alex W.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Poster Section 4 - Image on right, text on left -->
+    <section class="poster-section" id="poster4">
+        <div class="split-layout reverse">
+            <div class="poster-content">
+                <h2 class="tagline">Born in Texas, chasing flavor frontiers everywhere.</h2>
+                <p class="body-text">From the heart of Austin to wherever your adventures take you, we're bringing bold Texas flavors to fuel your pursuits. Our slow-smoked jerky carries the spirit of the Lone Star State in every bite.</p>
+                <div class="hashtag-strip">
+                    <span>#KeepAustinHungry</span>
+                    <span>#FeralForge</span>
+                </div>
+                <a href="#" class="mini-cta">Explore Our Story →</a>
+            </div>
+            <div class="poster-image">
+                <img src="Assets/poster4.png" alt="Born in Texas">
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section - New dedicated section -->
+    <section class="social-media-section" id="social">
+        <div class="section-container">
+            <h2>Join the Pack</h2>
+            <p class="section-intro">Follow our journey and share your savage moments with us.</p>
+            
+            <div class="social-proof-container">
+                <div class="social-tile instagram">
+                    <h4>@feralforge</h4>
+                    <div class="insta-grid">
+                        <div class="insta-post"></div>
+                        <div class="insta-post"></div>
+                        <div class="insta-post"></div>
+                    </div>
+                </div>
+                <div class="social-tile tiktok">
+                    <h4>@savage_bites</h4>
+                    <div class="tiktok-counter">
+                        <i class="fab fa-tiktok"></i>
+                        <span class="view-count">2.7M</span>
+                        <span class="view-label">views</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-cta">
+                <p>Show us how you #GetSavage with our jerky</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nutrition Section -->
+    <section class="nutrition-section" id="nutrition">
+        <h2>Nutrition & Sourcing</h2>
+        <div class="nutrition-container">
+            <div class="nutrition-left">
+                <div class="pie-chart">
+                    <div class="pie-segment protein"></div>
+                    <div class="pie-segment fat"></div>
+                    <div class="pie-segment carbs"></div>
+                    <div class="pie-center">
+                        <span>16g</span>
+                        <span>Protein</span>
+                    </div>
+                </div>
+                <div class="vitamin-callouts">
+                    <div class="vitamin">
+                        <span class="vitamin-name">B12</span>
+                        <span class="vitamin-value">25%</span>
+                    </div>
+                    <div class="vitamin">
+                        <span class="vitamin-name">Iron</span>
+                        <span class="vitamin-value">15%</span>
+                    </div>
+                    <div class="vitamin">
+                        <span class="vitamin-name">Zinc</span>
+                        <span class="vitamin-value">20%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="nutrition-right">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">🐄</div>
+                        <h4>Grass-fed cattle</h4>
+                        <p>Ethically raised in Texas</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">🔥</div>
+                        <h4>Craft seasoning</h4>
+                        <p>Small-batch bourbon infusion</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">💨</div>
+                        <h4>Slow smoke</h4>
+                        <p>12-hour hickory process</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">📦</div>
+                        <h4>Pack & ship</h4>
+                        <p>Sealed for freshness</p>
+                    </div>
+                </div>
+                <div class="sustainability">
+                    <h4>Sustainability Promise</h4>
+                    <p>Our recyclable pouches and carbon-neutral shipping keep your conscience as clean as your macros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscription Banner -->
+    <section class="subscription-banner" id="subscribe">
+        <div class="banner-content">
+            <h2>Forge Club</h2>
+            <p class="offer">Save 15% + free shipping when you get monthly drops.</p>
+            <div class="subscription-form">
+                <input type="email" placeholder="Your email">
+                <select name="flavor" id="flavor-select">
+                    <option value="bourbon">Black-Pepper Bourbon</option>
+                    <option value="habanero">Habanero Heat</option>
+                    <option value="garlic">Smoky Garlic</option>
+                    <option value="mix">Variety Pack</option>
+                </select>
+                <button class="btn btn-primary">Join the Club</button>
+            </div>
+            <div class="trust-seals">
+                <div class="seal">🔒 Secure checkout</div>
+                <div class="seal">⏸️ Pause anytime</div>
+                <div class="seal">🚚 Ships monthly</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">All Products</a></li>
+                    <li><a href="#">Bundles</a></li>
+                    <li><a href="#">Subscriptions</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Help & FAQ</h4>
+                <ul>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div class="footer-mission">
+                <img src="Assets/Logo.png" alt="Feral Forge Logo" class="footer-logo">
+                <p class="mission">We craft untamed snacks for untamed lives</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Email for savage deals">
+                    <button class="btn btn-small">→</button>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">© 2023 Feral Forge. All rights reserved.</div>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mini Cart (appears on scroll) -->
+    <div class="mini-cart" id="miniCart">
+        <div class="mini-cart-content">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="mini-cart-count">0</span>
+            <button class="btn btn-primary btn-small">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- Particle Overlay for Dust Effect -->
+    <div class="particle-overlay" id="particleOverlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
