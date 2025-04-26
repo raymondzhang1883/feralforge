@@ -1,52 +1,41 @@
-# Feral Forge - Savage Bites Landing Page
+# FERAL FORGE
 
-A modern, hip landing page for Feral Forge's premium beef jerky product, Savage Bites.
+## Untamed Snacks for Untamed Lives
 
-## Features
+Feral Forge is a premium jerky brand born in the heart of Austin, Texas, crafting high-protein, low-carb fuel for those who embrace their savage side. Our artisanal process combines traditional meat-smoking techniques with bold, innovative flavors that stand out in the crowded snack market.
 
-- Responsive design that works on all device sizes
-- Sticky header navigation with smooth scrolling
-- Ken Burns zoom effect on hero image
-- Interactive elements including:
-  - Hover effects on product images with 3D tilt
-  - Animated progress bars for nutritional information
-  - Automatic review carousel
-  - Particle effects on dark sections
-  - Parallax scrolling backgrounds
-- Cart functionality (demo only, doesn't store items)
+### Our Philosophy
 
-## How to Run
+We believe snacking shouldn't be a compromise. Each bite of Feral Forge jerky delivers:
 
-Simply open the `index.html` file in a modern web browser. No server or build process required.
+- **16g of protein** with zero sugar
+- Ethically sourced, grass-fed Texas cattle
+- Small-batch bourbon infusion process
+- 12-hour hickory smoke for authentic flavor
+- Keto-friendly nutrition profile
 
-## Structure
+### Signature Flavors
 
-- `index.html` - The main HTML structure
-- `styles.css` - All styling for the website
-- `script.js` - JavaScript for interactive elements
-- `Assets/` - Contains all images used in the website
+- **Savage Bites: Black-Pepper Bourbon** - Our flagship flavor, infused with real Kentucky bourbon
 
-## Design Notes
+### The Forge Club
 
-This landing page follows modern web design principles with:
+Join our subscription service to get monthly drops of your favorite flavors with 15% off and free shipping. The perfect way to keep your emergency stash fully loaded.
 
-- Clean, minimalist aesthetic with bold typography
-- High-contrast color scheme with matte black and bright orange accent
-- Sticky navigation and micro-interactions to improve user experience
-- Mobile-first responsive design
-- Visual storytelling through product photography
+### #GetSavage
 
-## Assets Used
+Feral Forge isn't just a snack—it's a lifestyle for those who push boundaries:
+- Post-workout recovery that never tasted so wild
+- Road trip co-pilot for the long haul
+- Study fuel with attitude
+- Office drawer emergency stash upgrade
 
-- Logo.png - Feral Forge logo
-- main_landing_photo.png - Hero banner image
-- poster1.png, poster2.png, poster3.png, poster4.png - Section images
+Follow our journey @feralforge and show us how you #GetSavage with our jerky.
 
-## Browser Compatibility
+### Model Credits
+- Surya Bhamidipati (Unleassh The Beast)
+- Rohan Samtani (Feral Forge Beef Jerky)
+- Raymond Zhang (Fuel Your Body)
+- Shreyas Sripurushottam (Keep Austin Hungry)
 
-This landing page is designed to work in modern browsers that support:
-- CSS Grid and Flexbox
-- CSS Variables
-- Modern JavaScript (ES6+)
-
-Tested and working in the latest versions of Chrome, Firefox, Safari, and Edge. 
+*Developed by Raymond Zhang for MIS 301H at the University of Texas at Austin*
