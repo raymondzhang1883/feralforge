@@ -38,4 +38,4 @@ Follow our journey @feralforge and show us how you #GetSavage with our jerky.
 - Raymond Zhang (Fuel Your Body)
 - Shreyas Sripurushottam (Keep Austin Hungry)
 
-*Developed by Raymond Zhang for MIS 301H at the University of Texas at Austin*
+*Feral Forge is a fictional company developed by Raymond Zhang for MIS 301H at the University of Texas at Austin*
