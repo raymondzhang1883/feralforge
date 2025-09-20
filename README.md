@@ -1,4 +1,5 @@
 # FERAL FORGE
+*Feral Forge is a fictional company developed by Raymond Zhang for MIS 301H at the University of Texas at Austin*
 
 ## Untamed Snacks for Untamed Lives
 
@@ -37,5 +38,3 @@ Follow our journey @feralforge and show us how you #GetSavage with our jerky.
 - Rohan Samtani (Feral Forge Beef Jerky)
 - Raymond Zhang (Fuel Your Body)
 - Shreyas Sripurushottam (Keep Austin Hungry)
-
-*Feral Forge is a fictional company developed by Raymond Zhang for MIS 301H at the University of Texas at Austin*
