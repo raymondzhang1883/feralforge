@@ -1,6 +1,8 @@
 # FERAL FORGE
 *Feral Forge is a fictional company developed by Raymond Zhang for MIS 301H at the University of Texas at Austin*
 
+View at [Feral Forge](https://raymondzhang1883.github.io/feralforge/)
+
 ## Untamed Snacks for Untamed Lives
 
 Feral Forge is a premium jerky brand born in the heart of Austin, Texas, crafting high-protein, low-carb fuel for those who embrace their savage side. Our artisanal process combines traditional meat-smoking techniques with bold, innovative flavors that stand out in the crowded snack market.
